@@ -1,0 +1,151 @@
+body#main-body{
+  background-color:#62929a;
+  color:white;
+  font-family: 'Niramit', sans-serif;
+}
+
+h2.ini-sesion{
+  font-family: 'Niramit', sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight:900;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+a {
+  font-family: 'Patua One', cursive;
+  font-family: 'Baloo Tammudu', cursive;
+  color:black;
+  font-weight:bold;
+  border: 2px solid white;
+  background: white;
+  text-decoration: none;
+}
+div.login {
+  width: 250px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  margin: -189px 0px 0px -154px;
+  background:#363434;
+  padding: 20px 30px;
+  border-radius: 5px;
+  /* -webkit-box-shadow:0px 0px 44px 6px #033A61 ;
+  -moz-box-shadow:0px 0px 44px 6px #033A61 ;
+  box-shadow:0px 0px 44px 6px #033A61 ; */
+}
+.button{
+  font-family: 'Patua One', cursive;
+  font-family: 'Baloo Tammudu', cursive;
+  background: #62929a;
+  border: 0;
+  width: 250px;
+  height: 40px;
+  border-radius: 3px;
+  color:white;
+  font-size: 1.3em;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+input[type="text"], input[type="password"] {
+  width: 250px;
+  padding: 25px 0px;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #b5cd60;
+  outline: none;
+  color: white;
+  font-size: 14px;
+}
+input[type=checkbox] {
+  display: none;
+}
+
+label {
+  display: block;
+  position: absolute;
+  margin-right: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: transparent;
+  content: "";
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border: 8px solid #46485c;
+}
+
+#remember:checked ~ label[for=remember] {
+  background: #b5cd60;
+}
+.recordar{
+  color: black;
+  font-weight: bold;
+  font-family: 'Patua One', cursive;
+  font-family: 'Baloo Tammudu', cursive;
+}
+input[type="submit"] {
+  background: #b5cd60;
+  border: 0;
+  width: 250px;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  font-family: 'Patua One', cursive;
+  font-family: 'Baloo Tammudu', cursive;
+}
+input[type="submit"]:hover {
+  background: #16aa56;
+}
+
+.forgot {
+  margin-top: 30px;
+  display: block;
+  font-size: 1em;
+  text-align: center;
+  font-family: 'Patua One', cursive;
+  font-family: 'Baloo Tammudu', cursive;
+}
+.forgot:hover {
+  margin-top: 30px;
+  display: block;
+  font-size: 1em;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Patua One', cursive;
+  font-family: 'Baloo Tammudu', cursive;
+}
+
+.remember {
+  padding: 10px 0px;
+  font-size: 12px;
+  text-indent: 25px;
+  line-height: 15px;
+  font-family: 'Patua One', cursive;
+  font-family: 'Baloo Tammudu', cursive;
+}
+input.pt{
+  color: white;
+  text-align: center;
+  font-family: 'Patua One', cursive;
+  font-family: 'Baloo Tammudu', cursive;
+}
+
+::-webkit-input-placeholder {
+  color:white;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: all 0.2s linear;
+  transform: translate(10px, 0);
+  opacity: 0;
+}
+
+/* Boton cerrar mensaje video embebidos */
+.alert-dismissable .close, .alert-dismissible .close{
+  color: black!important;
+}

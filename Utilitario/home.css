@@ -1,0 +1,512 @@
+@charset "utf-8";
+/* HOME CSS Document - 10/01/2012 by Plusweb Soluciones Tecnologicas www.plusweb.cl */
+
+/* HOME LAYOUT 
+___________________*/
+
+#container{
+	border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -moz-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -o-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+	float: left;
+	height: 500px;
+	margin: 0;
+	width: 952px;
+}
+
+.LeftUp{
+	float: left;
+	margin: 0 20px 15px 0;
+	width: 653px;
+}
+
+	.LeftUp .TwitterMarquee{
+		background: white;
+		border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;
+		box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -moz-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -o-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+		float: left;
+		height: 24px;
+		margin: 0 0 8px 0;
+		padding: 3px;
+		width: 647px;
+	}
+	
+		.LeftUp .TwitterMarquee .facebook{
+			float: left;
+			height: 25px;
+			margin: 0 0 0 5px;
+			padding: 0;
+			width: 24px;
+		}
+		
+		.LeftUp .TwitterMarquee .twitter{
+			float: left;
+			height: 25px;
+			margin: 0 0 0 5px;
+			padding: 0;
+			width: 24px;
+		}
+		
+		.LeftUp .TwitterMarquee .twitterName{
+			color: #1d97d0;
+			font-family: 'Hammersmith One', sans-serif;
+			font-size: 15px;
+			float: left;
+			height: 22px;
+			margin: 0 0 0 5px;
+			padding: 3px 0 0 0;
+		}
+		
+		.LeftUp .TwitterMarquee .marquee{
+			color: #747474;
+			font-size: 11px;
+			float: left;
+			height: 18px;
+			margin: 0 0 0 5px;
+			padding: 7px 0 0 0;
+			width: 455px;
+		}
+	
+	.LeftUp .FeaturedSlide{
+		background: white;
+		border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;
+		box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -moz-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -o-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+		
+		float: left;
+		height: 251px;
+		margin: 0 0 15px 0;
+		padding: 3px;
+		width: 647px;
+	}
+	
+	.LeftUp .FeaturedLinks{
+		background: white;
+		border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;
+		box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -moz-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -o-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+		float: left;
+		height: 131px;
+		margin: 0 0 15px 0;
+		padding: 3px;
+		width: 207px;
+		z-index: 9;		
+	}
+	
+		.LeftUp .margin{ margin: 0 7px 8px 0; }
+		
+			.LeftUp .FeaturedLinks .foto{
+				float: left;
+				height: 131px;
+				margin: 0;
+				padding: 0;
+				position: absolute;
+				width: 207px;
+				z-index: 1;
+			}
+			
+			.LeftUp .FeaturedLinks .texto{
+				background: rgba(0,0,0,.7);
+				border-bottom-left-radius: 4px; -moz-border-bottom-left-radius: 4px; -webkit-border-bottom-left-radius: 4px; -o-border-bottom-left-radius: 4px;
+				border-bottom-right-radius: 4px; -moz-border-bottom-right-radius: 4px; -webkit-border-bottom-right-radius: 4px; -o-border-bottom-right-radius: 4px;
+				color: white;
+				font-family: 'Hammersmith One', sans-serif;
+				font-size: 14px;
+				height: 18px;
+				margin: 101px 0 0 0;
+				padding: 6px 13px;
+				position: absolute;
+				width: 181px;
+				z-index: 2;
+				text-decoration: none;
+				text-align: center;
+				overflow: hidden;
+			}
+			.LeftUp .FeaturedLinks .texto .info{
+				font-size:12px; margin-top:7px;				
+			}
+	
+	.LeftUp .FeaturedCarousel{
+		background: url(images/bg-FeaturedCarousel.png) no-repeat center center;
+		border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;
+		float: left;
+		height: 206px;
+		margin: 0;
+		padding: 3px;
+		width: 647px;
+	}
+	
+	
+
+.RightUp{
+	float: left;
+	margin: 0 0 10px 0;
+	width: 273px;
+}
+
+	.RightUp .OficinaVirtual{
+		background: white url(images/bg-OficinaVirtual.png) no-repeat center top;
+		border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;
+		box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -moz-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -o-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+		float: left;
+		height: 177px;
+		margin: 0 0 12px 0;
+		padding: 3px;
+		width: 267px;
+	}
+	
+		.RightUp .OficinaVirtual .titulo{
+			color: white;
+			float: left;
+			font-family: 'Hammersmith One', sans-serif;
+			font-size: 15px;
+			text-shadow:  1px 1px 0 #949494;
+			height: 22px;
+			padding: 5px 0 0 0;
+			text-align: center;
+			width: 267px;
+		}
+	
+	.RightUp .BannerSide{
+		background: white;
+		border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;
+		box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -moz-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -o-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+		float: left;
+		height: auto;
+		margin: 0 0 13px 0;
+		opacity: 1;
+		padding: 3px 3px 0 3px;
+		transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -webkit-transition: all .2s ease-in-out;
+		width: 267px;
+	}
+		
+		.RightUp .BannerSide:hover{
+			opacity: .7;
+			transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -webkit-transition: all .2s ease-in-out;
+		}
+	
+	
+	.RightUp .UneteRedesSociales{
+		background: white url(images/bg-UneteRedesSociales.png) no-repeat center top;
+		border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;
+		box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -moz-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+		float: left;
+		height: 206px;
+		margin: 3px 0 15px 0;
+		padding: 3px;
+		width: 267px;
+	}
+
+	.RightUp .UneteRedesSociales .titulo{
+		float: left;
+		font-family: 'Hammersmith One', sans-serif;
+		font-size: 14px;
+		height: 20px;
+		margin: 0 12px;
+		padding: 7px 0 0 0;
+		text-align: center;
+		width: 243px;
+	}
+	
+	.RightUp .UneteRedesSociales .fb-like{
+		float: left;
+		margin: 10px 12px 0 12px;
+		padding: 5px 0 0 0;
+		width: 243px;
+	}
+	
+	.RightUp .UneteRedesSociales .tw-like{
+		background: #eef9fe;
+		border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+		float: left;
+		margin:5px 12px 0;
+		padding:5px 4px 5px 20px;
+		width:220px;
+	}
+	
+
+.EnergiaVerde{
+	background: white url(images/bg-EnergiaVerde.png) no-repeat center top;
+	border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -moz-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -o-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+	float: left;
+	height: 177px;
+	margin: 0 0 20px 0;
+	width: 944px;
+	display: none; /* Solicitado por SLILLO con fecha 3-10-2012*/
+}
+
+	.EnergiaVerde .titulo{
+		color: white;
+		float: left;
+		font-family: 'Hammersmith One', sans-serif;
+		font-size: 14px;
+		height: 14px;
+		margin: 1px 0;
+		padding: 7px 20px;
+		width: 902px;
+	}
+	
+	.EnergiaVerde .logoEficienciaEnergetica{
+		background: url(images/logo-eficienciaEnergetica.png) no-repeat center;
+		float: left;
+		height: 119px;
+		margin: 14px 0 0 15px;
+		padding: 0;
+		width: 88px;
+	}
+	
+	.EnergiaVerde .listadoEficienciaEnergetica{
+		float: left;
+		height: 119px;
+		margin: 14px 0 0 25px;
+		padding: 0;
+		width: 230px;
+	}
+	
+		.EnergiaVerde .listadoEficienciaEnergetica ul{
+			margin: 15px 0 0 0;
+			padding: 0;
+		}
+		
+		.EnergiaVerde .listadoEficienciaEnergetica li{
+			background: url(images/ico-listadoEficienciaEnergetica.png) no-repeat left center;
+			font-family: 'Hammersmith One', sans-serif;
+			font-size: 12px;
+			height: 16px;
+			list-style: none;
+			margin: 0 0 7px 0;
+			padding: 2px 0 0 25px;
+		}
+		
+			.EnergiaVerde .listadoEficienciaEnergetica li a{
+				color: #479b09;
+			}
+			
+			.EnergiaVerde .listadoEficienciaEnergetica li a:hover{
+				color: #2c6502;
+			}
+	
+	.EnergiaVerde .linkLeft{
+		border-left: 1px solid #e3e3e3;
+		float: left;
+		height: 119px;
+		margin: 14px 0 0 15px;
+		padding: 0;
+		width: 285px;
+	}
+	
+	.EnergiaVerde .linkRight{
+		border-left: 1px solid #e3e3e3;
+		float: left;
+		height: 119px;
+		margin: 14px 0 0 0;
+		padding: 0;
+		width: 266px;
+	}
+	
+
+.TrabajandoyBanners{
+	float: left;
+	height: 239px;
+	margin: 0 18px 20px 0;
+	width: 598px;
+}
+
+	.TrabajandoyBanners .Trabajando{
+		background: white;
+		border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;
+		box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -moz-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -o-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+		float: left;
+		height: 157px;
+		margin: 0 0 12px 0;
+		width: 598px;
+	}	
+	
+		.TrabajandoyBanners .Trabajando .titulo{
+			background: url(images/bg-tituloRojo.png) repeat-x;
+			border-top-left-radius: 3px; -moz-border-top-left-radius: 3px; -webkit-border-top-left-radius: 3px; -o-border-top-left-radius: 3px;
+			border-top-right-radius: 3px; -moz-border-top-right-radius: 3px; -webkit-border-top-right-radius: 3px; -o-border-top-right-radius: 3px;
+			color: white;
+			float: left;
+			font-family: 'Hammersmith One', sans-serif;
+			font-size: 14px;
+			height: 15px;
+			margin: 1px 0 0 1px;
+			padding: 7px 20px;
+			width: 556px;
+		}
+		
+		.TrabajandoyBanners .Trabajando .feature{
+			float: left;
+			height: 92px;
+			margin: 17px 6px 0 12px;
+			width: 275px;
+		}
+		
+			.TrabajandoyBanners .Trabajando .sep{ margin-right: 12px;}
+			
+			.TrabajandoyBanners .Trabajando .feature .imagen{
+				float: left;
+				height: 92px;
+				margin: 0;
+				width: 94px;
+			}
+			
+			.TrabajandoyBanners .Trabajando .feature .title{
+				color: #ea312c;
+				float: left;
+				font-family: 'Hammersmith One', sans-serif;
+				font-size: 14px;	
+				margin: 5px 0 5px 10px;
+				width: 170px;
+			}
+			
+			.TrabajandoyBanners .Trabajando .feature .description{
+				float: left;
+				font-size: 12px;
+				line-height: 12px;
+				margin: 0 0 5px 10px;
+				width: 170px;
+				text-align: left;
+			}
+			
+			.TrabajandoyBanners .Trabajando .feature .link{
+				color: #ea312c;
+				float: left;
+				font-family: 'Hammersmith One', sans-serif;
+				font-size: 13px;	
+				margin: 0 0 5px 10px;
+				width: 170px;
+			}
+
+	
+	.TrabajandoyBanners .MiniBanner{
+		background: white;
+		border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;
+		box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -moz-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -o-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+		float: left;
+		height: 64px;
+		margin: 0 0 0 0;
+		opacity: 1;
+		padding: 3px;
+		transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out;
+		width: 184px;
+	}
+		.TrabajandoyBanners .MiniBanner:hover{
+			opacity: .7;
+			transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out;
+		}
+		
+		.TrabajandoyBanners .sep{ margin-right: 14px;}
+
+
+.GaleriaMedia{
+	background: white;
+	border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -moz-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -o-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+	float: left;
+	height: 239px;
+	margin: 0 0 20px 0;
+	width: 328px;
+}
+
+	.GaleriaMedia .titulo{
+		background: url(images/bg-tituloRojo.png) repeat-x;
+		border-top-left-radius: 3px; -moz-border-top-left-radius: 3px; -webkit-border-top-left-radius: 3px; -o-border-top-left-radius: 3px;
+		border-top-right-radius: 3px; -moz-border-top-right-radius: 3px; -webkit-border-top-right-radius: 3px; -o-border-top-right-radius: 3px;
+		color: white;
+		float: left;
+		font-family: 'Hammersmith One', sans-serif;
+		font-size: 14px;
+		height: 15px;
+		margin: 1px 0 0 1px;
+		padding: 7px 20px;
+		width: 286px;
+	}
+	
+	.GaleriaMedia .videos{
+		float: left;
+		height: 190px;
+		margin: 9px;
+		padding: 0;
+		width: 309px;
+	}
+
+.BlockCentroAyuda{
+	background: white;
+	border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -moz-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -o-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+	float: left;
+	height: 276px;
+	margin: 14px 18px 20px 0;
+	width: 248px;
+}
+
+	.BlockCentroAyuda .titulo{
+		background: url(images/bg-blockCentrodeAyuda.png) repeat-x;
+		border-top-left-radius: 3px; -moz-border-top-left-radius: 3px; -webkit-border-top-left-radius: 3px; -o-border-top-left-radius: 3px;
+		border-top-right-radius: 3px; -moz-border-top-right-radius: 3px; -webkit-border-top-right-radius: 3px; -o-border-top-right-radius: 3px;
+		color: white;
+		float: left;
+		font-family: 'Hammersmith One', sans-serif;
+		font-size: 14px;
+		height: 35px;
+		margin: 1px 0 18px 1px;
+		padding: 7px 20px;
+		width: 206px;
+	}
+	
+	.BlockCentroAyuda .telephonist{
+		height: 67px;
+		margin: -17px 0 0 182px;
+		position: absolute;
+		width: 67px;
+		z-index: 1;
+	}
+	
+	.BlockCentroAyuda ul{
+		float: left;
+		margin: 0 0 0 0;
+		padding: 0 0 0 25px;
+	}
+	
+		.BlockCentroAyuda ul li{
+			border-bottom: 1px dashed rgba(0,0,0,0.2);
+			color: #70ae2b;
+			float: left;
+			margin: 0 0 10px 0;
+			padding: 0 0 10px;
+			width: 215px;
+		}
+		
+			.BlockCentroAyuda ul li a{
+				color: gray;
+				text-decoration: none;
+				opacity: 1;
+				transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out;
+			}
+			
+			.BlockCentroAyuda ul li a:hover{
+				color: #066592;
+				text-decoration: underline;
+				opacity: 1;
+				transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out;
+			}
+
+.FacebookHome{
+	background: white url(images/bg-FacebookHome.png) no-repeat;
+	border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -moz-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -o-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+	float: left;
+	height: 275px;
+	margin: 0 0 20px 0;
+	padding: 15px 0 0 30px;
+	width: 648px;
+}
+
+.FotoComunidad{
+	background: white url(images/bg-FotoComunidad.png) no-repeat;
+	float: left;
+	height: 283px;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 944px;
+}

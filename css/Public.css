@@ -1,0 +1,342 @@
+header{
+	/* background: #1d5464; */
+	color: white;
+	vertical-align: middle;
+}
+header.co-fondo{
+	background: #005792;
+}
+/* Para la foto de perfil barra */
+img.rounded {
+    border-radius: 130px!important;
+    border: 4px solid #666!important;
+    cursor: pointer;
+}
+div.despliegue{
+	position: relative;
+}
+div.desple-menu{
+	min-width: 7rem;
+	margin: 0.125rem -66px 0;
+	left: -5px!important;
+}
+div.caja-formu-login{
+	display: inline-flex;
+}
+button.menu-item{
+	padding: .25rem 0.5rem; 
+}
+div.desple-menu-entrar{
+	left: -17px!important;
+	min-width: 6rem;
+	padding: -0.5rem 0!important;
+	border-radius: 6px!important;
+}
+a.menu-item-entrar{
+	padding: 0.25rem 0.5rem;
+}
+ul.despliegue-entrar{
+	border-bottom: 4px solid white;
+    background: #FFC107;
+    border-radius: 18px;
+}
+.flecha-abajo::after{
+	display: none!important;
+}
+i.icono-re{
+	font-size: xx-large;
+	color: black;
+}
+a.menu-item-entrar:hover{
+	color:white!important;
+	background:#005792;!important
+	transform: scale(1.3);
+}
+/* fin */
+footer div.co-fondo{
+	background: #005792;!important
+}
+div .title-nav,.title1-nav{
+	position: relative;
+	margin: auto;
+	display: inline-block;
+	justify-content: center;
+}
+div .fila3,.title-nav{
+	vertical-align: middle;
+}
+div .fila3{
+	text-align: center;
+	padding: 0px;
+}
+div .titulos{
+	float: left;
+}
+div .title-nav{
+	font-size: 45px;
+}
+p.text-login{
+	position: relative;
+	display: inline-block;
+	margin-bottom: 0px;
+	justify-content: center;
+	text-align: right;
+	/* margin-left: 15px; */
+	font-size: 20px;
+}
+p.text-login:hover{
+	color:orange;
+	transform: scale(1.2);
+}
+div.login{
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+}
+
+a.login-user{
+	text-decoration: none;
+	color: white;
+	/* margin: auto; */
+	margin-left: 5px;
+}
+a{
+	text-decoration: none;
+}
+a i.fas{
+	vertical-align: middle;
+}
+
+div.fila1-logo{
+	text-align: right;
+	padding:0px;
+}
+div.fila1-logo img{
+	margin-right: 10px;
+	padding: 0px;
+	margin-top: 0px;
+	vertical-align: middle;
+}
+
+div.fila2{
+	float: left;!important	
+	padding:0px;
+	position: relative;
+	vertical-align:middle;
+	width: 100%;
+}
+form.form-inline{
+	display: inline-block;
+	vertical-align: middle;
+}
+a.lista-des:hover{
+	color:white;
+	background:#005792;!important
+	transform: scale(1.3);
+}
+/* Aqui termina los titulos, logo, y buscar */
+
+/* ----Menus---- */
+div .main-nav{
+	border-top: 1px solid white;
+	margin-top: 5px;
+}
+
+.dropdown-toggle::after{
+	color:white;
+}
+
+/* Carousel de archivos */
+div.carousel{
+	border-radius: 10px;
+	background:#2C2C2C;!important
+}
+h5.titulo-reciente{
+	color: white;
+	margin: 10px 0 10px 0;
+	font-family: 'Signika', sans-serif;
+	padding-left: 10px;
+}
+p.titulo-tabla{
+	padding-top: 10px;
+	font-size: 20px;
+	margin-bottom: 2px;
+	color: white;
+	font-family: 'Noto Sans SC', sans-serif;
+}
+th.ultimas-agregadas{
+	font-family: 'Signika', sans-serif;
+}
+th a{
+	color: black;
+}
+div.reciente-col{
+	background:#005792;!important
+	padding-left: 10px;
+	padding-right: 10px;
+}
+div.destaca-col{
+	/* border: 0.5px solid black; */
+	background:#2C2C2C;
+	color: white;
+}
+h4.titulo-destacado{
+	font-family: 'Signika', sans-serif;
+	color: black;
+	background: #FFC107;
+	border-radius: 5px;
+	margin-bottom: 0px;
+}
+
+div.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 20;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+a.carousel-control-prev{
+	width: 8%;!impotant
+}
+a.carousel-control-next{
+	width: 8%;!impotant
+}
+a.imagen-cuadro,img:hover{
+	transform: scale(1.1);
+}
+div.texto{
+	margin:0 5px -15px 5px;
+	color: white;
+	font-weight: bolder;
+	font-size: 12px;
+	background-color: #282828; 
+	border: 0.5px solid none;
+	border-radius: 7px;
+}
+div.texto-cuadro{
+	padding: 0px;
+}
+div.archivos-recie{
+	position: relative;
+	float: right;
+	background: #28A745;
+	border-radius: 10px;
+	padding:3px;
+	margin-bottom: 5px;
+}
+div.archivos-recie:hover{
+	transform: scale(0.9);
+}
+div.archivos-recie p{
+	position: relative;
+	display: inline-block;
+	margin-bottom: 0px;
+}
+div .like{
+	padding: 0px;
+	align-self: center;
+}
+div .caja-like{
+	text-align:right;
+	padding: 0 10px 0 0; 
+}
+.likes{
+	font-weight: 400;
+    display: inline-block;
+    position: relative;
+}
+div .like-badge{
+	margin-right: 3px;
+}
+i.musica{
+    display: inline-block;
+    position: relative;
+    float:left;
+}
+.fa-music:before {
+    content: "\f001";
+    vertical-align: middle;
+	margin-right: 10px;
+}
+.fa-book-open:before{
+	content: "\f001";
+    vertical-align: middle;
+	margin-right: 10px;
+	color: #FFC107;
+}
+.fa-book:before{
+	content: "\f001";
+    vertical-align: middle;
+	margin-right: 10px;
+}
+.fa-youtube:before{
+	content: "\f001";
+    vertical-align: middle;
+	margin-right: 10px;	
+}
+div.caja-titulo p{
+	margin-bottom:5px;!important 
+	display: inline-block;
+	vertical-align: middle;!important
+}
+div.caja-titulo{
+	vertical-align: middle;
+	margin: 3px 0 3px 0;
+}
+a.link-like:hover{
+	font-size: 15px;
+	z-index: 1000;
+}
+footer div.footer-text{
+	color: white;
+}
+footer p.pie-titulo1{
+	padding-top: 15px;
+	margin-top: 20px;
+}
+footer p.pie-institucion{
+	padding-bottom: 15px;
+	margin-bottom: 0px;
+}
+p.bMensaje{
+	margin-bottom: 0px;
+}
+/* -------------------  APORTAR ----------------------- */
+div.aport-img{
+	margin:30px 0 30px 0;
+}
+p.tp-texto{
+	font-family: 'Noto Sans SC', sans-serif;
+	font-size: 1.1em;
+}
+p.tp-texto a{
+	text-decoration:none; 
+}
+div.aport-img img{
+	width: 80px;
+	height: 80px;
+	vertical-align: middle;
+	background:#EAEAEB;
+	border-radius:40%;
+	-webkit-border-radius:40%;
+	box-shadow: 0px 0px 12px 12px #E8630A;
+	-webkit-box-shadow: 0px 0px 12px 12px #E8630A;
+	-webkit-transform: rotate(360deg);
+}
+div.aport-img:hover{
+	-webkit-transform:scale(1.2);transform:scale(1.2);
+}
+div i.fa-exclamation-triangle{
+	font-size: 40px;
+	text-align: right; 
+}
+i.fa-upload{
+	margin-left: 18px;
+	font-size: 40px;
+}

@@ -1,0 +1,202 @@
+.image_carousel {
+
+	margin: 2px 0 0 0;
+	padding: 0 0 0 20px;
+	position: relative; 
+}
+
+.image_carousel .FeaturedCuadro{
+	background: url(images/bg-FeaturedCuadro.png) no-repeat center center;
+	float: left;
+	display: block;
+	height: 157px;
+	margin: 0 5px;
+	padding: 8px;
+	width: 176px;
+}
+
+	.image_carousel .FeaturedCuadro .titulo{
+		color: #ea312c;
+		float: left;
+		font-family: 'Hammersmith One', sans-serif;
+		font-size: 14px;
+		height: 25px;
+		line-height: 14px;
+		margin: 0 5px 3px 5px;
+		padding: 0;
+		text-align: center;
+		width: 166px;
+	}
+	
+	.image_carousel .FeaturedCuadro .icono{
+		float: left;
+		height: 78px;
+		margin: 5px 48px 10px 48px;
+		padding: 0;
+		width: 80px;
+	}
+	
+	.image_carousel .FeaturedCuadro .descripcion{
+		float: left;
+		font-size: 11px;
+		height: 40px;
+		margin: 0 5px;
+		padding: 0;
+		text-align: center;
+		width: 166px;
+	}
+
+
+.image_carousel a {
+    display: block;
+    float: left;
+    transition: none; -moz-transition: none; -webkit-transition: none; -o-transition: none;
+}
+
+.image_carousel a.prev{
+	background: url(images/ico-image_carouselPrev.png) no-repeat;
+	width: 29px;
+	height: 29px;
+	display: block;
+	position: absolute;
+	top: 83px;
+}
+.image_carousel a.prev {
+	left: -8px;
+	background-position: top;
+}
+.image_carousel a.prev:hover {		background-position: bottom; }
+.image_carousel a.prev.disabled {	background-position: top; opacity: 0.4; }
+
+
+.image_carousel a.next {
+	background: url(images/bg-image_carouselNext.png) no-repeat;
+	width: 29px;
+	height: 29px;
+	display: block;
+	position: absolute;
+	top: 83px;
+}
+
+.image_carousel a.next {
+	right: -8px; 
+	background-position: top;
+	}
+
+.image_carousel a.next:hover {		background-position: bottom; }
+.image_carousel a.next.disabled {	background-position: top; opacity: 0.4; }
+
+.image_carousel a.prev.disabled, a.next.disabled {
+	cursor: default;
+}
+
+.image_carousel a.prev span, a.next span {
+	display: none;
+}
+.image_carousel .pagination {
+	text-align: center;
+	float: none; margin-top:10px;
+}
+.image_carousel .pagination a {
+	background: url(images/miscellaneous_sprite.png) 0 -300px no-repeat transparent;
+	width: 15px;
+	height: 15px;
+	margin: 0 5px 0 0;
+	display: inline-block;
+	float: none
+}
+.image_carousel .pagination a.selected {
+	background-position: -25px -300px;
+	cursor: default;
+}
+.image_carousel .pagination a span {
+	display: none;
+}
+.clearfix {
+	float: none;
+	clear: both;
+}
+
+/*********************************************************************
+Estilos para Carrousel de Videos en portada
+*/
+.video_carousel {
+	padding: 0 0 0 35px;
+	position: relative; 
+}
+.video_carousel .Videocuadro {
+	background: #ececec;
+	border: 1px solid #ccc;
+	padding: 0px;
+	margin: 7px 6px 7px 6px;
+	height: 28px;
+	display: block;
+	float: left;
+	width: 45px;
+}
+
+.video_carousel a {
+    display: block;
+    float: left;
+    transition: none; -moz-transition: none; -webkit-transition: none; -o-transition: none;
+}
+
+.video_carousel a.prev{
+	background: url(images/ico-image_carouselPrev.png) no-repeat;
+	width: 29px;
+	height: 29px;
+	display: block;
+	position: absolute;
+	top: 9px;
+}
+.video_carousel a.prev {
+	left: 6px;
+	background-position: top;
+}
+.video_carousel a.prev:hover {		background-position: bottom; }
+.video_carousel a.prev.disabled {	background-position: top; opacity: 0.4; }
+
+
+.video_carousel a.next {
+	background: url(images/bg-image_carouselNext.png) no-repeat;
+	width: 29px;
+	height: 29px;
+	display: block;
+	position: absolute;
+	top: 9px;
+}
+
+.video_carousel a.next {
+	right: 6px; 
+	background-position: top;
+	}
+
+.video_carousel a.next:hover {		background-position: bottom; }
+.video_carousel a.next.disabled {	background-position: top; opacity: 0.4; }
+
+.video_carousel a.prev.disabled, a.next.disabled {
+	cursor: default;
+}
+
+.video_carousel a.prev span, a.next span {
+	display: none;
+}
+.video_carousel .pagination {
+	text-align: center;
+	float: none; margin-top:10px;
+}
+.video_carousel .pagination a {
+	background: url(images/miscellaneous_sprite.png) 0 -300px no-repeat transparent;
+	width: 15px;
+	height: 15px;
+	margin: 0 5px 0 0;
+	display: inline-block;
+	float: none
+}
+.video_carousel .pagination a.selected {
+	background-position: -25px -300px;
+	cursor: default;
+}
+.video_carousel .pagination a span {
+	display: none;
+}

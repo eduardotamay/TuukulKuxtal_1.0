@@ -1,0 +1,19 @@
+body.body-container{
+	background-color:#62929a;
+  color:white;
+  font-family: 'Niramit', sans-serif;
+}
+div.box-register{
+	background:#363434;
+	border-radius: 5px;
+}
+p.btn-regresar{
+	float: left;
+	position: relative;
+	margin-left: 20px;
+}
+p.btn-registro{
+	float: right;
+	position: relative;
+	margin-right:20px; 
+}

@@ -1,0 +1,25 @@
+.barra-nav{
+	background-color: #363434;
+	border: none;
+	border-radius: 0px;
+}
+
+div .titulo-nav{
+	margin-bottom: -0.4%; margin-top: 0.5%;
+	font-family: 'Niramit', sans-serif;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+
+div .titulo2-nav{
+	color: white;
+	margin-bottom: -0.4%;
+	margin-top: 0.9%;
+}
+
+body{
+	background-color:#62929a;
+  	color:black;
+  	font-family: sans-serif;
+}

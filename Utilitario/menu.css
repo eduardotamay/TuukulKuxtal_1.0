@@ -1,0 +1,305 @@
+/* MENU CSS Document - 10/01/2012 by Plusweb Soluciones Tecnologicas www.plusweb.cl */
+
+#Nivel1{
+	background: url(images/bg-navPrincipal.png) repeat-x;
+	height: 37px;
+	margin: 146px 0 0 0;
+	padding: 0 0 0 5px;
+	position: absolute;
+	width: 955px;
+	z-index: 7;
+}
+
+#Nivel2{
+	background: rgba(255,255,255,0.7) url(images/bg-Nivel2.png) no-repeat center top;
+	border-top-left-radius: 3px; -moz-border-top-left-radius: 3px; -webkit-border-top-left-radius: 3px;
+	border-top-right-radius: 3px; -moz-border-top-right-radius: 3px; -webkit-border-top-right-radius: 3px;
+	height: 23px;
+	margin: 184px 0 0 -9px;
+	padding: 0 15px;
+	position: absolute;
+	width: 948px;
+	z-index: 6px;
+}
+
+
+.menuPrincipal{
+	float: left;
+	height: 37px;
+	margin: 0 6px 0 0;
+	width: 723px;
+}
+
+.googleForm{
+	float: left;
+	height: 29px;
+	margin: 4px 0 0 0; /* IE FIX */ *margin-top: 5px; *margin-left: -15px;
+	width: 211px;
+}
+
+	.googleForm .text{
+		border: 1px solid #b52a2a;
+		border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;
+		float: left;
+		height: 24px;
+		padding: 0 0;
+		position: absolute;
+		width: 209px;
+		z-index: 1;
+	}
+	
+	.googleForm .submit{
+		background: url(images/ico-SearchgoogleForm.png) no-repeat center center;
+		border: 0;
+		cursor: pointer;
+		float: left;
+		height: 16px;
+		margin: 3px 0 0 182px;
+		padding: 12px;
+		position: absolute;
+		width: 12px;
+		z-index: 2;
+	}
+	
+
+
+/* JS disabled styles */
+.no-js nav li:hover ul { display:block; }
+
+/* base nav styles */
+nav#Nivel1 { /* display:block; margin:0 auto 20px; position:relative; */}
+nav#Nivel1 ul { padding:0; margin:0; }
+nav#Nivel1 li { position:relative; float:left; list-style-type:none; }
+nav#Nivel1 ul:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+
+nav#Nivel1 li a { 
+	border-left:1px solid #ffbbb6;
+	border-right: 1px solid #d01f12;
+	color:#eee;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 14px;
+	display:block;
+	height: 16px;
+	padding: 11px 20px 10px 20px;
+	text-decoration:none;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.6);
+}
+
+nav#Nivel1 li a:hover{
+	color: white;
+} 
+
+nav#Nivel1 li a:focus { outline:none; text-decoration:none; }
+nav#Nivel1 li:first-child a { border-left:none; }
+nav#Nivel1 li.last a { border-right:none; }
+nav#Nivel1 a span { display:block; float:right; margin-left:5px; }
+
+nav#Nivel1 ul ul { display: none; width:100%; min-width: 150px; position:absolute; left:0; z-index: 99999 !important; }
+nav#Nivel1 ul ul li { float:none;  }
+
+nav#Nivel1 ul ul a { 
+	font-size: 12px;
+	border-left: none;
+	border-right: none;
+	padding: 5px 10px;
+}
+nav#Nivel1 ul ul a:hover { background-color: transparent; }
+
+/* CSS3 */
+.borderradius nav {  }
+.cssgradients nav { } 
+.boxshadow.rgba nav {  }
+.cssgradients nav#Nivel1 li:hover { background: url(images/bg-menu1Hover.gif) repeat-x center top;  } /* FONDO HOVER */
+
+
+nav#Nivel1 .current-page { background: url(images/bg-menu1Hover.gif) repeat-x center top; } /* CURRENT PAGE CLASS */
+
+
+.rgba nav#Nivel1 ul ul li { border-left:1px solid rgba(0,0,0,0.1); border-right:1px solid rgba(0,0,0,0.1); border-bottom:1px solid rgba(255,255,255,0.2); background: transparent url(images/bg-Black80.png) repeat;  }
+.rgba nav#Nivel1 ul ul a:hover { background-color:rgba(85,85,85,.9); color: white; }
+.borderradius.rgba nav#Nivel1 ul ul li.last { border-left:1px solid rgba(0,0,0,0.1); border-bottom:1px solid rgba(0,0,0,0.1); -moz-border-radius-bottomleft:4px; -moz-border-radius-bottomright:4px; -webkit-border-bottom-left-radius:4px; -webkit-border-bottom-right-radius:4px; border-bottom-left-radius:4px; border-bottom-right-radius:4px; }
+
+
+/* Menu Pestañas Mi Hogar y mas Chilquinta */
+ul.menu {
+	display: inline-block;
+	#display: inline;
+	_display: inline;
+	zoom: 1;
+	margin: 0 0;
+	list-style-type: none;
+	white-space: nowrap;
+	padding: 0;
+	z-index: 999999;
+}
+ul.menu ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+
+	border: #333 solid 1px;
+	margin: -9px 0 0 13px;
+	padding: 0;
+	list-style-type: none;
+	z-index: 999999;
+	
+	border:1px solid rgba(0,0,0,0.1);
+	-moz-border-radius-bottomleft:4px; -moz-border-radius-bottomright:4px; -webkit-border-bottom-left-radius:4px; -webkit-border-bottom-right-radius:4px; border-bottom-left-radius:4px; border-bottom-right-radius:4px;
+	
+	width: 150px;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 12px;
+}
+ul.menu ul li {
+	display: block;
+	border: none;
+	border-top: gray solid 1px;
+	z-index: 999999;
+}
+ul.menu ul li:first-child {
+	border: none;
+}
+ul.menu li {
+	position: relative;
+	display: inline-block;
+	#display: inline;
+	_display: inline;
+	zoom: 1;
+	border-left: blue solid 1px;
+	z-index: 999999;
+}
+ul.menu li:first-child {
+	border: none;
+}
+ul.menu li a {
+	display: block;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: white;
+	z-index: 999999;
+}
+ul.menu li a:hover {
+	text-decoration: none;
+	z-index: 999999;
+}
+ul.menu li:hover ul {
+	background: url(images/bg-Gray95.png) repeat;
+	display: block;
+	z-index: 999999;
+}
+ul.menu li:hover li:hover {
+	background: url(images/bg-White20.png) repeat;
+	display: block;
+	z-index: 999999;
+}
+
+ul.menu ul li:hover ul {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 100%;
+	z-index: 999999;
+}
+
+
+/* fallbacks */
+
+.no-cssgradients nav#Nivel1 li:hover, .no-js nav#Nivel1 li:hover { background: url(images/bg-menu1Hover.gif) repeat-x center top; padding-bottom: 16px }
+
+
+
+
+
+/* MENU NIVEL 2 */
+
+/* JS disabled styles */
+.no-js nav#Nivel2 li:hover ul { display:block; }
+
+/* base nav styles */
+nav#Nivel2 {  }
+nav#Nivel2 ul { padding:0; margin:0; }
+nav#Nivel2 li { position:relative; float:left; list-style-type:none; }
+nav#Nivel2 ul:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+
+nav#Nivel2 li a { 
+	border: none;
+	color:#eee;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 12px;
+	display:block;
+	height: 16px;
+	padding: 5px 20px 2px 20px;
+	text-decoration:none;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.6);
+	
+	
+	/* IE7 FIXES */
+	*width: 135px;
+	*padding: 5px 0 0 0;
+	*text-align: center;
+}
+
+nav#Nivel2 li a:hover{
+	color: white; 
+} 
+
+nav#Nivel2 li a:focus { outline:none; text-decoration:none; }
+nav#Nivel2 li:first-child a { border-left:none; }
+nav#Nivel2 li.last a { border-right:none; }
+nav#Nivel2 a span { display:block; float:right; margin-left:5px; }
+
+nav#Nivel2 ul ul { display: none; width:100%; min-width: 165px; position:absolute; left:0; z-index: 99999 !important; }
+nav#Nivel2 ul ul li { float:none; height: 100%; }
+
+nav#Nivel2 ul ul a { 
+	font-size: 12px;
+	border-left: none;
+	border-right: none;
+	padding: 5px 10px;
+	
+	height: 100%;
+}
+nav#Nivel2 ul ul li a{
+text-align: left;
+}
+
+nav#Nivel2 ul ul a:hover { background-color: transparent; }
+
+/* CSS3 */
+.borderradius nav#Nivel2 {  }
+.cssgradients nav#Nivel2 { } 
+.boxshadow.rgba nav#Nivel2 {  }
+.cssgradients nav#Nivel2 li:hover { background: url(images/bg-menu1Hover.gif) repeat-x center top; } /* FONDO HOVER */
+
+.rgba nav#Nivel2 ul ul li { border-left:1px solid rgba(0,0,0,0.1); border-right:1px solid rgba(0,0,0,0.1); border-bottom:1px solid rgba(255,255,255,0.2); background: transparent url(images/bg-Black80.png) repeat; text-align: left;}
+
+.rgba nav#Nivel2 ul ul a:hover { background:rgba(85,85,85,.9); color: white; height: 100%;}
+
+
+.borderradius.rgba nav#Nivel2 ul ul li.last { border-left:1px solid rgba(0,0,0,0.1); border-bottom:1px solid rgba(0,0,0,0.1); -moz-border-radius-bottomleft:4px; -moz-border-radius-bottomright:4px; -webkit-border-bottom-left-radius:4px; -webkit-border-bottom-right-radius:4px; border-bottom-left-radius:4px; border-bottom-right-radius:4px; }
+.csstransforms ul a span { background: url(images/ico-menu.png) no-repeat; width: 16px; }
+
+:root .csstransforms ul a span { background: none \0/IE9; }  /* IE9 + IE10pp4 */
+
+/* fallbacks */
+
+.no-cssgradients nav#Nivel2, .no-js nav#Nivel2 { padding-bottom:4px; border:none; background: url(images/bg-Nivel2.png) no-repeat center top; 	z-index: 999;}
+.no-borderradius nav ul, .no-js nav ul {  }
+.no-borderradius nav ul ul, .no-js nav ul ul { background:none; }
+.no-borderradius nav li, .no-js nav li { height: 23px; }
+
+.no-cssgradients nav#Nivel2 li:hover, .no-js nav#Nivel2 li:hover { background: url(images/bg-menu1Hover.gif) repeat-x center top; }
+
+.no-borderradius nav li li, .no-js nav li li { height:auto; width:98%; left:-2px; text-align: left;}
+.no-borderradius nav li:first-child, .no-js nav li:first-child { }
+
+.no-borderradius nav li li:first-child, .no-js nav li li:first-child { background:none; }
+
+.no-rgba nav ul ul, .no-js nav ul ul { left:1px; padding-left:2px; background: url(images/bg-Black70.png) repeat; }
+
+.no-rgba nav ul ul a, .no-js nav ul ul a { left:3px; }
+.no-rgba nav ul ul a:hover { background:url(images/menu-subOverBG.png) repeat 0 0; }
+.no-csstransforms ul a span { height:16px; width:16px; margin-top:-16px; text-indent:-5000px; overflow:hidden; }
+.no-borderradius ul ul li.last { margin-bottom:10px; }
+.no-cssgradients.boxshadow nav { box-shadow:none; }

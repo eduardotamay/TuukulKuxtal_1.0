@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+/*
+** @author			HTML5 anchor
+** @license			http://creativecommons.org/licenses/by/3.0/
+** @version			1.0
+** @link			http://html5anchor.com
+*/
+
+nav.paginado {
+clear: both;
+font-family: 'Hammersmith One', sans-serif;
+font-size:17px;
+color:#474747;
+display:block;
+margin: 0 auto !important;
+text-align: center;
+}
+
+nav.paginado ul {
+margin:0;
+padding:0;
+list-style:none;
+text-align:center !important;
+
+*margin:0 auto;
+}
+
+nav.paginado ul li {
+display:inline-block;
+*display: inline; /* IE */
+
+*margin:0 auto;
+}
+
+nav.paginado ul li + li {
+margin-left:3px;
+}
+
+nav.paginado ul li a {
+padding:5px 15px 5px 15px;
+color:inherit; *color: #888;
+text-decoration:none;
+text-shadow:0 1px 0 rgba(255,255,255,1);
+line-height:1;
+background:#F7F7F7;
+background:-webkit-gradient(linear,left top,left bottom,from(#F7F7F7),to(#DEDEDE));
+background:-moz-linear-gradient(top,#F7F7F7,#DEDEDE);
+background:-webkit-linear-gradient(top,#F7F7F7,#DEDEDE);
+background:linear-gradient(top,#F7F7F7,#DEDEDE);
+border:#EDEDED solid 1px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+-moz-box-shadow:
+0 1px 1px rgba(0,0,0,0.5),
+0 1px 0 rgba(255,255,255,1) inset;
+-webkit-box-shadow:
+0 1px 1px rgba(0,0,0,0.5),
+0 1px 0 rgba(255,255,255,1) inset;
+box-shadow:
+0 1px 1px rgba(0,0,0,0.5),
+0 1px 0 rgba(255,255,255,1) inset;
+display:block;
+*display: inline; /* IE */
+}
+
+nav.paginado ul li a:active,
+nav.paginado ul li a.current {
+margin-top:1px;
+-moz-box-shadow:
+0 1px 0 rgba(255,255,255,1),
+0 1px 1px rgba(0,0,0,0.3) inset;
+-webkit-box-shadow:
+0 1px 0 rgba(255,255,255,1),
+0 1px 1px rgba(0,0,0,0.3) inset;
+box-shadow:
+0 1px 0 rgba(255,255,255,1),
+0 1px 1px rgba(0,0,0,0.3) inset;
+}

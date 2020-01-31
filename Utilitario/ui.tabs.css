@@ -1,0 +1,242 @@
+ 
+Styles para tab By @plusgio www.plusweb.cl
+
+ul.tabs {
+	background #f1f1f1;
+	margin 3px 0 0 0;
+	padding 0;
+	float left;
+	list-style none;
+	height 21px;
+	border-bottom 1px solid #999; 
+	width 100%;
+}
+ul.tabs li {
+	-moz-border-top-left-radius 4px; -webkit-border-top-left-radius 4px; border-top-left-radius 4px; 
+	-moz-border-top-right-radius 4px; -webkit-border-top-right-radius 4px; border-top-right-radius 4px;
+	float left;
+	
+	margin 0 0 0 0;
+	overflow hidden;
+	padding 0;
+	position relative;
+	text-align center;
+	width 128px;
+}
+ul.tabs li a {
+	border 1px solid #fff; 
+	border 0px solid #d5d5d5;
+	color #949494;
+	display block;
+	font-size 12px;
+	margin 0 0 0 0;
+	outline none;
+	padding 4px 14px 4px 6px; 
+	text-decoration none;	
+}
+
+ul.tabs li ahover {
+	color #c31009;
+}
+html ul.tabs li .active {
+	background url(imagesbg-ultabs_li_active.png) no-repeat center top;
+	border 0px solid #d5d5d5; border-bottom 0px;
+	-moz-border-top-left-radius 4px; -webkit-border-top-left-radius 4px; border-top-left-radius 4px; 
+	-moz-border-top-right-radius 4px; -webkit-border-top-right-radius 4px; border-top-right-radius 4px;
+	color #c31009;
+}
+
+
+.tab_container {
+	background #f8f8f8 url(imagesbg-tab_content.png) repeat-x center top;
+	float left;
+	border-top none;
+	clear both;
+	float left;
+	margin 0 0 0 0;
+	list-style none;
+	overflow hidden;
+	height 126px;
+	width 100%;
+}
+.tab_content{
+	background #f8f8f8 url(imagesbg-tab_content.png) repeat-x center top;
+	height 111px;
+	margin 0;
+	list-style none;
+	padding 15px 13px 0 13px;
+	font-size 1.2em;
+}
+
+	.tab_content .BlockLinks{
+		font-size 11px;
+		margin 0 0;
+		text-align center;
+	}
+	
+		.tab_content .BlockLinks a{
+			color #ff8c4a;
+			line-height 13px;
+			padding 0 1px 0 2px;
+			text-decoration none;
+		}
+		
+			.tab_content .BlockLinks ahover{
+				color #fb6f1f;
+			}
+		
+		.tab_content .BlockLinks ahover{
+			text-decoration underline;
+		}
+		
+		.tab_content .formulario{
+			float left;
+			font-size 12px;
+			margin -10px 0 7px 0;
+			padding 0 0;
+			width 240px;
+		}
+		
+			.tab_content .formulario .Name-ingresaEmail{
+				float left;
+				margin 0 0 2px 0;
+				padding 0 3px;
+				width 234px;
+			}
+			
+			.tab_content .formulario .ingresaEmail{
+				background url(imagesbg-ingresaEmail.png) repeat-x center center;
+				border 1px solid #dbdbdb;
+				border-radius 5px; -moz-border-radius 5px; -webkit-border-radius 5px; -o-border-radius 5px;
+				color black;
+				float left;
+				height 22px;
+				margin 0 0 10px 0;
+				opacity 1;
+				padding 0 7px;
+				transition all .2s ease-in-out; -moz-transition all .2s ease-in-out; -webkit-transition all .2s ease-in-out; -o-transition all .2s ease-in-out;
+				width 138px;
+			}
+			
+				.tab_content .formulario .ingresaEmail-webkit-input-placeholder { color #929292;	}
+
+				.tab_content .formulario .ingresaEmail-moz-placeholder {  color #929292; }
+			
+				.tab_content .formulario .ingresaEmailhover{
+					opacity .7;
+					transition all .2s ease-in-out; -moz-transition all .2s ease-in-out; -webkit-transition all .2s ease-in-out; -o-transition all .2s ease-in-out;
+				}
+			
+			.tab_content .formulario .Clave-ingresaClave{
+				float left;
+				margin 0 0 2px 0;
+				padding 0 3px;
+				width 234px;
+			}
+			
+			.tab_content .formulario .ingresaClave{
+				background url(imagesbg-ingresaEmail.png) repeat-x center center;
+				border 1px solid #dbdbdb;
+				border-radius 5px; -moz-border-radius 5px; -webkit-border-radius 5px; -o-border-radius 5px;
+				color black;
+				float left;
+				height 22px;
+				margin 0 0 5px 0;
+				opacity 1;
+				padding 0 7px;
+				transition all .2s ease-in-out; -moz-transition all .2s ease-in-out; -webkit-transition all .2s ease-in-out; -o-transition all .2s ease-in-out;
+				width 138px;
+			}
+				
+				.tab_content .formulario .ingresaClave-webkit-input-placeholder { color #929292;	}
+
+				.tab_content .formulario .ingresaClave-moz-placeholder {  color #929292; }
+			
+				.tab_content .formulario .ingresaClavehover{
+					opacity .7;
+					transition all .2s ease-in-out; -moz-transition all .2s ease-in-out; -webkit-transition all .2s ease-in-out; -o-transition all .2s ease-in-out;
+				}
+			
+			.tab_content .formulario .submitLogin{
+				background url(imagesbg-ultabsliACTIVE.png) repeat-x center center;
+				border 1px solid #da1a12;
+				border-radius 4px; -moz-border-radius 4px; -webkit-border-radius 4px; -o-border-radius 4px;
+				color white;
+				cursor pointer;
+				float left;
+				height 24px;
+				margin 0 0 5px 16px;
+				opacity 1;
+				padding 0 7px;
+				transition all .2s ease-in-out; -moz-transition all .2s ease-in-out; -webkit-transition all .2s ease-in-out; -o-transition all .2s ease-in-out;
+				width 70px;
+			}
+			
+				.tab_content .formulario .submitLoginhover{
+					opacity .7;
+					transition all .2s ease-in-out; -moz-transition all .2s ease-in-out; -webkit-transition all .2s ease-in-out; -o-transition all .2s ease-in-out;
+				}
+
+
+ Tabs Fotos ____
+
+ul.tabs_fotos {
+	margin 0;
+	padding 0;
+	float left;
+	list-style none;
+	height 27px;
+	border-bottom 1px solid #999; 
+	width 100%;
+}
+ul.tabs_fotos li {
+	float left;
+	margin 0 10px 0 0;
+	padding 0 0 0 0;
+	height 27px;
+	line-height 31px;
+	border-bottom 0px solid;
+	margin-top 0px;
+	overflow hidden;
+	position relative;
+	-moz-border-top-left-radius 4px; -webkit-border-top-left-radius 4px; border-top-left-radius 4px; 
+	-moz-border-top-right-radius 4px; -webkit-border-top-right-radius 4px; border-top-right-radius 4px;
+}
+ul.tabs_fotos li a {
+	text-decoration none;
+	color #1081D1;
+	display block;
+	font-size 1.2em;
+	padding 0 20px 0 20px; margin 0 0 0 0;
+	border 1px solid #fff; 
+	outline none;
+	border 0px solid #d5d5d5;
+	font-family  'Hammersmith One', Arial, sans-serif; color #9d9d9d; font-size 14px; 
+	background url(imagesbg-ultabsliA.png) repeat-x;
+}
+ul.tabs_fotos li ahover {
+	color #ffffff;
+	background url(imagesbg-ultabsliACTIVE.png) repeat-x;
+}
+html ul.tabs_fotos li .active {
+	color #ffffff;
+	background url(imagesbg-ultabsliACTIVE.png) repeat-x;
+	border 0px solid #d5d5d5; border-bottom 0px;
+	-moz-border-top-left-radius 4px; -webkit-border-top-left-radius 4px; border-top-left-radius 4px; 
+	-moz-border-top-right-radius 4px; -webkit-border-top-right-radius 4px; border-top-right-radius 4px;
+}
+
+
+.tab_container_fotos {
+	height 236px;
+	border-top none;
+	overflow hidden;
+	clear both;
+	float left; width 100%;
+	margin 16px 0 0 8px;
+	color #efefef;
+}
+.tab_content_fotos {
+	padding 20px; padding 0px;
+	font-size 1.2em;
+}

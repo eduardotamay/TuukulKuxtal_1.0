@@ -1,0 +1,113 @@
+/* Sidebar PANEL USUARIOS ____*/
+
+.PanelSidebar{
+	background: #ebebeb;
+	border: 1px solid white;
+	border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -moz-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -o-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+	float: left;
+	margin: 0 35px 0 0;
+	padding: 0 0 5px 0;
+	width: 266px;
+}
+
+	.PanelSidebar .head{
+		background: url(images/bg-PanelSidebar_head.png) no-repeat center center;
+		border-top-left-radius: 3px; -moz-border-top-left-radius: 3px;
+		border-top-right-radius: 3px; -moz-border-top-right-radius: 3px;
+		float: left;
+		height: 70px;
+		width: 266px;
+	}
+	
+	.PanelSidebar ul{
+		margin: 0 0;
+		padding: 0 0;
+	}
+	
+	.PanelSidebar ul li{
+		float: left;
+		margin: 0 0;
+		list-style: none;
+		padding: 0 0;
+		width: 266px;
+	}
+	
+		.PanelSidebar ul li a{
+			background: url(images/bg-PanelSidebarullia.png) repeat-x center center;
+			color: white;
+			float: left;
+			font-size: 18px;
+			margin: 0 0;
+			padding: 11px 0 12px 20px;
+			text-decoration: none;
+			width: 246px;
+		}
+		
+			.PanelSidebar ul li a:hover{
+			}
+			
+			.PanelSidebar ul li a.current-holder{
+				background: url(images/bg-PanelSidebarulliacurrent-holder.png) no-repeat left center;
+				float: left;
+				width: 256px;
+			}
+	
+				.PanelSidebar ul li .michilquinta{
+					background: url(images/ico-PanelSidebar-michilquinta.png) no-repeat left center;
+					float: left;
+					height: 21px;
+					padding:  6px 0 0 30px;
+					width: 216px;
+					}
+			
+				.PanelSidebar ul li .servicios{
+					background: url(images/ico-PanelSidebar-Servicios.png) no-repeat left center;
+					float: left;
+					height: 21px;
+					padding:  6px 0 0 30px;
+					width: 216px;
+				}
+			
+				.PanelSidebar ul li .utilidades{
+					background: url(images/ico-PanelSidebar-Utilidades.png) no-repeat left center;
+					float: left;
+					height: 21px;
+					padding:  6px 0 0 30px;
+					width: 216px;
+				}
+	
+		.PanelSidebar ul li ul{
+			background: url(images/bg-PanelSidebarulliul.png) no-repeat center top;
+			float: left;
+			margin: 0 0 0 0;
+			padding: 9px 0 0 0;
+			width: 266px;	
+		}
+		
+		.PanelSidebar ul li ul li{
+			float: left;
+			margin: 1px 0;
+		}
+		
+			.PanelSidebar ul li ul li a{
+				background: transparent;
+				color: #474747;
+				float: left;
+				font-size: 12px;
+				font-weight: bold;
+				margin: 0 0;
+				padding: 10px 0 9px 43px;
+				text-decoration: none;
+				width: 223px;
+			}
+				.PanelSidebar ul li ul li a:hover{
+					background: #d8d8d8;
+				}
+				
+				.PanelSidebar ul li ul li a.current-category{
+					background: url(images/bg-PanelSidebarulliullia.current-page.png) no-repeat center center;
+					color: white;
+					float: left;
+					width: 233px;
+				}
